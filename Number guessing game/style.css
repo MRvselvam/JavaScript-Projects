@@ -1,0 +1,119 @@
+.fullPage {
+  height: 100%;
+  width: 100%;
+}
+.bgImg-1 {
+  position: absolute;
+  height: 600px;
+  width: 1350px;
+}
+.bgImg-2 {
+  position: absolute;
+  height: 480px;
+  width: 900px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: 10px solid rgb(201, 25, 255);
+  border-radius: 30px;
+}
+.naviBar {
+  position: absolute;
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+#naviBarItem-1,
+#naviBarItem-2 {
+  background-color: rgb(212, 255, 0);
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 130px;
+  border: 5px solid purple;
+  border-radius: 20px;
+  margin-left: 320px;
+  margin-top: 100px;
+  padding: 5px 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.bgImg-3 {
+  position: absolute;
+  height: 100px;
+  width: 220px;
+  margin-left: 550px;
+  margin-top: 150px;
+}
+h1 {
+  position: absolute;
+  color: darkslategrey;
+  margin-left: 300px;
+  margin-top: 260px;
+  font-size: 40px;
+  font-weight: bold;
+}
+label {
+  position: absolute;
+  color: rgb(191, 9, 36);
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 320px;
+  font-weight: bold;
+}
+input {
+  position: absolute;
+  color: purple;
+  background-color: white;
+  height: 25px;
+  width: 170px;
+  margin-left: 625px;
+  margin-top: 326px;
+  font-size: 14px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+}
+button {
+  position: absolute;
+  color: white;
+  background-color: purple;
+  height: 30px;
+  width: 85px;
+  margin-left: 810px;
+  margin-top: 325px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border-style: hidden;
+}
+#img {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 370px;
+  width: 100px;
+  height: 100px;
+}
+#newDemo {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 550px;
+  margin-top: 480px;
+  font-weight: bold;
+}
+
+#remainChance {
+  position: absolute;
+  color: red;
+  margin-left: 940px;
+  margin-top: 107px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#countdown {
+  position: absolute;
+  color: red;
+  margin-left: 413px;
+  margin-top: 112px;
+  font-size: 25px;
+  font-weight: bold;
+}

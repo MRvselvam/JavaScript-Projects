@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Dynamic Array</title>
+  </head>
+  <body>
+    <table id="itemsTable">
+      <tr>
+        <th>Items</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td>Orange</td>
+        <td>120</td>
+      </tr>
+      <tr>
+        <td>Grapes</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <div>
+      <h1>Dynamic Array!</h1>
+      <div id="itemsDiv">
+        <label id="items"> Select Items:</label>
+        <br />
+        <br />
+        <input type="checkbox" id="apple" />
+        <label for="">Apple</label> <br />
+        <br />
+        <div id="appleInputContainer" style="display: none">
+          <input type="text" id="appleInpField" value="0" />
+          <button id="appleButton">Save</button>
+        </div>
+        <input type="checkbox" id="orange" />
+        <label for="">Orange</label><br />
+        <br />
+        <div id="orangeInputContainer" style="display: none">
+          <input type="text" id="orangeInpField" value="0" />
+          <button id="orangeButton">Save</button>
+        </div>
+        <input type="checkbox" id="grapes" />
+        <label for="">Grapes</label><br />
+        <br />
+        <div id="grapesInputContainer" style="display: none">
+          <input type="text" id="grapesInpField" value="0" />
+          <button id="grapesButton">Save</button>
+        </div>
+      </div>
+      <button id="orderBtn" type="button" onclick="orderBtn()">Order Now</button>
+      <p id="demo"></p>
+    </div>
+
+    <table id="orderTable">
+      <tr>
+        <th>Items</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Orange</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Grapes</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <script src="./Dynamic_Array.js"></script>
+  </body>
+</html>

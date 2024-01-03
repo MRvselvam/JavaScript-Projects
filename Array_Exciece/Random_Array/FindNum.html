@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Find a Number</title>
+  </head>
+  <body>
+    <div class="full-Page">
+      <div id="left">
+        <h1>Assending & Dissending order a numbers!</h1>
+        <label id="">Enter a Start Value:</label>
+        <input type="text" name="" id="minInp" /> <br />
+        <br />
+        <label id="">Enter a End Value:</label>
+        <input type="text" name="" id="maxInp" /> <br />
+        <br />
+        <label id="">Length of the Array:</label>
+        <input type="text" name="" id="lengthInp" /> <br />
+        <br />
+        <button id="randomArray" onclick="orderNumInRandomArray()">
+          Generate Random Array
+        </button>
+        <br />
+        <br />
+        <!-- <button onclick="ascondingAndDissending()">Order Array Values</button> -->
+        <p id="assendingVal"></p>
+        <p id="dissendingVal"></p>
+      </div>
+      <div id="right">
+        <h1>Find a Random number within the Array!</h1>
+        <label id="">Enter a Start Value:</label>
+        <input type="text" name="" id="minInp-2" /> <br />
+        <br />
+        <label id="">Enter a End Value:</label>
+        <input type="text" name="" id="maxInp-2" /> <br />
+        <br />
+        <label id="">Length of the Array:</label>
+        <input type="text" name="" id="lengthInp-2" /> <br />
+        <br />
+        <label for="">Guessing your Number:</label>
+        <input type="text" id="userInp" /> <br> <br>
+        <button id="randomArray" onclick="findNumberInRandomArray()">
+          Generate Random Array 
+        </button>
+        <br />
+        <br />
+
+        <!-- <button onclick="ascondingAndDissending()">Find a Random Number</button>   -->
+        <p id="isThere"></p>
+        <p id="thisIndex"></p>
+      </div>
+    </div>
+
+    <script src="./FindNum.js"></script>
+  </body>
+</html>

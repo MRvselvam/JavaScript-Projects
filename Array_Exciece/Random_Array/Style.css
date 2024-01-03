@@ -1,0 +1,86 @@
+.full-Page {
+  display: flex;
+  background-color: lightcoral;
+  height: 590px;
+  width: 100%;
+}
+h1 {
+  color: blue;
+  font-family: Times, serif;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+#left {
+  height: auto;
+  width: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+#right {
+  height: auto;
+  width: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+#left label,
+#right label {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 130px;
+}
+#left input,
+#right input {
+  background-color: white;
+  color: red;
+  height: 20px;
+  font-weight: bold;
+  text-align: justify;
+  border-style: hidden;
+}
+#left #minInp,
+#right #minInp-2 {
+  margin-left: 10px;
+}
+#left #maxInp,
+#right #maxInp-2 {
+  margin-left: 15px;
+}
+#left #lengthInp,
+#right #lengthInp-2 {
+  margin-left: 3px;
+}
+#left #randomArray,
+#right #randomArray {
+  color: white;
+  background-color: orangered;
+  height: 35px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border-style: hidden;
+  font-weight: bold;
+}
+#left button, #right button {
+  color: white;
+  background-color: orangered;
+  height: 35px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border-style: hidden;
+  font-weight: bold;
+}
+#right #userInp {
+  width: 150px;
+}
+#left p,
+#right p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+}

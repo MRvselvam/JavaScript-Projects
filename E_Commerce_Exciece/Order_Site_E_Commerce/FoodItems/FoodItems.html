@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/92d70a2fd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../Style.css" />
+    <title>E Commerces</title>
+  </head>
+  <body>
+    <div id="navBar">
+      <p class="nameBoard">SELVA &nbsp;RESTORANT</p>
+      <img class="navBar-img" src="../Images/images.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="#bg-img">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <a href="#" onclick="toggleSidebar()"
+          ><img
+            class="navBar-cart-logo"
+            src="../Icons/icons8-add-shopping-cart-90.png"
+            alt=""
+        /></a>
+        <p id="count">0</p>
+      </div>
+    </div>
+    <img
+      id="bg-img"
+      src="../Images/240_F_637581484_D9ScF4emCoyR2OUOdocS0RkThdgD2Knh.jpg"
+      alt=""
+    />
+    <section id="home">
+      <div id="home-bg">
+        <img
+          class="home-bg-img-1"
+          src="../Images/watermelon-2367029_1280.jpg"
+          alt=""
+        />
+        <img
+          class="home-bg-img-2"
+          src="../Images/WhatsApp Image 2023-12-13 at 9.53.09 PM.jpeg"
+          alt=""
+        />
+        <h1>SELVA &nbsp;RESTAURANT</h1>
+        <p>
+          Delicious meals are <br />
+          Tasty, Appetizing, Scrumptious, Yummy, <br />
+          Luscious, Delectable, Mouth-watering, Fit for a king, Delightful,
+          <br />
+          Lovely, Wonderful, Pleasant, Enjoyable, Appealing, <br />
+          Enchanting, Charming.
+        </p>
+      </div>
+      <div id="cart-container">
+        <div id="root"></div>
+        <div class="sideBar">
+          <div class="head">
+            <p>My Cart</p>
+            <button id="cart-container-close" onclick="toggleSidebar()">Close</button>
+          </div>
+          <ul>
+            <li>Dish Name</li>
+            <li>Price</li>
+            <li>Remove</li>
+          </ul>
+          <div id="cartItems"></div>
+          <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">&#8377; 0.00</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div id="menuPage">
+        <h2>Menu List</h2>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-div">
+        <img src="../Images/images.png" alt="" />
+        <p class="nameBoard">SELVA RESTAURANT</p>
+        <div>
+          <h2>About</h2>
+          <br />
+          <p>
+            The <b style="color: orangered">SELVA RESTAURANT</b> is a place
+            where people visit to eat and drink the food being prepared on the
+            premises and pays for the same. The food is served at the table to
+            have a comfortable visit for your meals. The restaurant offers a
+            menu with various options for your meal, to choose from.
+          </p>
+          <br />
+          <ol style="list-style-type: square">
+            <li>
+              Restaurants provide you with different cuisines of food to satisfy
+              your hunger.
+            </li>
+            <li>
+              The food preparation and presentation gives you a happy feel
+              during your dull.
+            </li>
+            <li>
+              The ambiance that a restaurant provides you with gives one all the
+              more reason to visit to cherish their time.
+            </li>
+            <li>
+              The restaurant is a life savior when one doesn’t feel like cooking
+              or wants to eat something else.
+            </li>
+            <li>
+              You get to explore places when you plan to visit a restaurant.
+            </li>
+            <li>
+              The fast-food restaurant provides your meals on the go to save
+              your time at affordable prices.
+            </li>
+            <li>
+              The restaurant is a place to enjoy your special occasions like
+              Birthdays, Anniversaries, Achievements, etc.
+            </li>
+          </ol>
+          <br />
+          <p>
+            Conclusion: Restaurant provides with all the amenities that one
+            requires for a shift of mood or change in environment to cherish the
+            pleasant atmosphere and enjoy different cuisines to satisfy your
+            hunger.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./FoodItems.js"></script>
+  </body>
+</html>

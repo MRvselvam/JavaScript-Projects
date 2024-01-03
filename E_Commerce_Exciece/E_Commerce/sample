@@ -1,0 +1,55 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const appleInp = document.getElementById("apple"),
+    appleInputContainer = document.getElementById("appleInputContainer");
+  const appleBtn = document.getElementById("appleButton"),
+    appleInpValue = document.getElementById("appleInpField").value;  
+
+  appleInp.addEventListener("change", function () {
+    if (appleInp.checked) {
+      appleInputContainer.style.display = "block";
+      appleBtn.addEventListener("click", fuction () {
+        if (isNaN(appleInpValue)) {
+          alert("Please enter a valid number!");
+        } else {
+          alert("Apple " + appleInpValue + "Kg is added.");
+          console.log("Apple " + appleInpValue + "Kg is added.");
+          appleInputContainer.style.display = "none";
+        }
+      })  
+        
+    } else {
+      appleInp.style.display = "none";
+    }      
+  });
+ 
+
+  const grapesInputContainer = document.getElementById("grapesInputContainer"),
+    grapesInp = document.getElementById("grapes");
+
+  grapesInp.addEventListener("change", function () {
+    if (grapesInp.checked) {
+      grapesInputContainer.style.display = "block";
+    } else {
+      grapesInp.style.display = "none";
+    }
+  });
+
+  const orderBtn = document.getElementById("orderBtn");
+  orderBtn.addEventListener("click", function () {
+    console.log("First");
+    var orangeInpValue = document.getElementById("orangeInpField").value;
+    var grapesInpValue = document.getElementById("grapesInpValue").value;
+    
+    var appleRate = 180;
+    var appleCost = appleInpValue * appleRate;
+
+    var orangeRate = 120;
+    var orangeCost = orangeInpValue * orangeRate;
+
+    var grapesRate = 80;
+    var grapesCost = grapesInpValue * grapesRate;
+
+    var totalCost = appleCost + orangeCost + grapesCost;
+    console.log(totalCost);
+  });
+});
